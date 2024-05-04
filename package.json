@@ -1,0 +1,15 @@
+{
+  "name": "text-trasform",
+  "version": "1.0.0",
+  "description": "O text-transform é um módulo que foi desenvolvido por conta de o JavaScript não possuir métodos nativos para captalizar um texto",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "IagoACPereira",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
