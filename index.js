@@ -7,7 +7,7 @@ class TextTransform {
     return str.toLowerCase();
   }
 
-  static captalize(str) {
+  static capitalize(str) {
     str = str
       .toLowerCase()
       .split('');
@@ -15,7 +15,7 @@ class TextTransform {
     return str.join('');
   }
 
-  static captalizeAll(str) {
+  static capitalizeAll(str) {
     str = str
       .toLowerCase()
       .split(' ')
