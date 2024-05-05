@@ -10,8 +10,8 @@ Até o presente momento contém quatro métodos:
 |capitalize()|Deixar a primeira letra da string maiúscula|minha string|Minha string|
 |capitalizeAll()|Deixar a primeira letra de cada palavra da string maiúscula|minha string|Minha String|
 ***
-### Exemplos
-**upperCase**
+## Exemplos
+### upperCase
 ```js
 const textTransform = require('./')
 
@@ -21,7 +21,7 @@ console.log(textTransform.upperCase('minha string'));
 user@my-user:~$ node index.js 
 MINHA STRING
 ```
-**lowerCase**
+### lowerCase
 ```js
 const textTransform = require('./')
 
@@ -31,7 +31,7 @@ console.log(textTransform.lowerCase('MINHA STRING'));
 user@my-user:~$ node index.js
 minha string
 ```
-**capitalize**
+### capitalize
 ```js
 const textTransform = require('./')
 
@@ -41,7 +41,7 @@ console.log(textTransform.capitalize('minha string'));
 user@my-user:~$ node index.js
 Minha string
 ```
-**capitalizeAll**
+### capitalizeAll
 ```js
 const textTransform = require('./')
 
